@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabuleiro {
+    width: 560px;
+    height: 560px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: inset 40px #af793c;
+}
+
+.tabuleiro div {
+    width: 60px;
+    height: 60px;
+}
+
+.preto {
+    background-color: black;
+}
+
+.branco {
+    background-color: #fff;
+}
